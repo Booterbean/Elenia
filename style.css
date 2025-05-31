@@ -1,0 +1,38 @@
+/* make sure we take up the full viewport */
+html, body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #D6CADD; /* pastel baby purple/blue */
+  overflow: hidden;
+}
+
+/* the birthday message */
+h1 {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  margin: 0.5em 0;
+  text-align: center;
+  font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+  color: #28A745; /* nice green */
+  font-size: 2.5rem;
+}
+
+/* center whatever is inside #sketch-container */
+#sketch-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* if your sketch.js just does `createCanvas(...)` (no parent), then center the auto-appended canvas instead: */
+/*
+canvas {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+*/
