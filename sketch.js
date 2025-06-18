@@ -199,7 +199,7 @@ function setup() {
   ];
 
   // NPC dialogues
-  const johnDialogue = ["I've been a nasty girl..."];
+  const johnDialogue = ["Hello Eleni! Great job this semester!"];
   const algeaDialogue = [
     "Welcome home Eleni, we are happy you're home!",
     "Happy birthday! It seems like a new neighbor is moving into the house across the street but we haven't met him yet.",
